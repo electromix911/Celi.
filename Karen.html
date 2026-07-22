@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Para Karen ❤️</title>
+
+<style>
+body{
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg,#ffb6c1,#ffd1dc);
+    text-align:center;
+    padding:30px;
+}
+
+h1{
+    color:#d63384;
+}
+
+.poema{
+    background:white;
+    max-width:600px;
+    margin:auto;
+    padding:20px;
+    border-radius:20px;
+    box-shadow:0 0 15px rgba(0,0,0,0.2);
+    font-size:20px;
+}
+
+button{
+    margin-top:20px;
+    padding:15px 30px;
+    font-size:18px;
+    border:none;
+    border-radius:15px;
+    background:#ff4d88;
+    color:white;
+    cursor:pointer;
+}
+
+button:hover{
+    transform:scale(1.05);
+}
+
+#foto{
+    display:none;
+    margin-top:20px;
+}
+
+img{
+    width:300px;
+    max-width:90%;
+    border-radius:20px;
+    box-shadow:0 0 20px rgba(0,0,0,0.3);
+}
+</style>
+</head>
+
+<body>
+
+<h1>🐹 Para Karen 🐹</h1>
+
+<div class="poema">
+<p>
+Karen, dueña de una sonrisa sincera,<br>
+que alegra el día de cualquiera.<br><br>
+
+Tus cachetitos tan especiales,<br>
+son tiernos y fenomenales.<br><br>
+
+Parecen los de un ratoncito feliz,<br>
+de esos que hacen sonreír sin pedir.<br><br>
+
+Y aunque te moleste esta comparación,<br>
+lo digo con mucho cariño y admiración. ❤️
+</p>
+
+<button onclick="mostrarFoto()">
+🐹 Ver la sorpresa 🐹
+</button>
+
+<div id="foto">
+    <h2>La cachetona más bonita ❤️</h2>
+    <img src="karen.jpg" alt="Karen">
+</div>
+</div>
+
+<script>
+function mostrarFoto(){
+    document.getElementById("foto").style.display = "block";
+}
+</script>
+
+</body>
+</html>
